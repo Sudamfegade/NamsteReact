@@ -1,3 +1,37 @@
-#root {
-  color: rgb(120, 48, 48);
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+.logo {
+  width: 200px;
+}
+.nav-items > ul {
+  display: flex;
+  list-style-type: none;
+}
+.nav-items > ul > li {
+  margin: 20px;
+  font-size: 24px;
+}
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.res-card {
+  width: 200px;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+}
+.res-card:hover {
+  border: 1px solid black;
+  cursor: pointer;
+}
+.search {
+  padding: 10px;
+}
+.res-logo {
+  width: 190px;
 }
