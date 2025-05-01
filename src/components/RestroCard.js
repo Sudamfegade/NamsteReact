@@ -2,7 +2,7 @@ import { CDN_URL } from "../utils/constants";
 
 const RestroCart = (props) => {
   const { resData } = props;
-  console.log(resData.info.name);
+  console.log(resData);
   return (
     <div className="res-card">
       <img

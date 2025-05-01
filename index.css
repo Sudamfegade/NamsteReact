@@ -41,13 +41,13 @@
   border-radius: 16px;
 }
 .filter-btn {
-  padding: 15px;
+  /* padding: 15px;
   margin: 10px;
-  background-color: #0066cc;
+  background-color: #0066cc; */
   cursor: pointer;
-  color: #ffffff;
+  /* color: #ffffff;
   border: 1px solid #0066cc;
-  border-radius: 25px;
+  border-radius: 25px; */
 }
 .shimmer-container {
   display: flex;
@@ -60,4 +60,12 @@
   background: #f0f0f0;
   margin: 10px;
   display: grid;
+}
+.login {
+  padding: 0 20px;
+  cursor: pointer;
+}
+.filter {
+  display: flex;
+  align-items: center;
 }

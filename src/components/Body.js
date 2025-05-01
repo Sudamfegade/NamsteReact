@@ -1,9 +1,12 @@
 import { useEffect, useState } from "react";
 import RestroCart from "./RestroCard.js";
 import Shimmer from "./Shimmer.js";
+import { Link } from "react-router";
 
 const Body = () => {
-  const [resli, setResli] = useState([]);
+  const [reslis, setResli] = useState([]);
+  const [filteredReslis, setFiltredResli] = useState([]);
+  const [searchInput, setSearchInput] = useState("");
 
   useEffect(() => {
     fetchData();
@@ -14,32 +17,52 @@ const Body = () => {
     );
     const json = await data.json();
     const restrolist =
-      json.data.cards[4].card.card.gridElements.infoWithStyle.restaurants;
+      json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle
+        ?.restaurants;
 
     setResli(restrolist);
+    setFiltredResli(restrolist);
   };
-  console.log(resli);
 
-  return resli.length == 0 ? (
+  const handleSearch = () => {
+    const updateRes = reslis.filter((res) =>
+      res.info.name?.toLowerCase()?.includes(searchInput.toLowerCase())
+    );
+    setFiltredResli(updateRes);
+  };
+  return reslis.length == 0 ? (
     <Shimmer />
   ) : (
     <div className="body">
       <div className="filter">
+        <div className="search">
+          <input
+            className="search-box"
+            type="text"
+            onChange={(e) => {
+              setSearchInput(e.target.value);
+            }}
+            value={searchInput}
+          ></input>
+          <button onClick={handleSearch}>Search</button>
+        </div>
         <button
           className="filter-btn"
           onClick={(e) => {
-            const filteredList = restrolist.filter(
-              (res) => res.avgRatingString > 4
+            const filteredList = reslis.filter(
+              (res) => res.info?.avgRatingString > 4.2
             );
             setResli(filteredList);
           }}
         >
-          Top Rated Restaurant
+          Top Rated Restaurants
         </button>
       </div>
       <div className="res-container">
-        {resli.map((resCard, index) => (
-          <RestroCart key={index} resData={resCard} />
+        {filteredReslis.map((resCard, index) => (
+          <Link key={resCard.info.id} to={"/restaurant/" + resCard.info.id}>
+            <RestroCart resData={resCard} />
+          </Link>
         ))}
       </div>
     </div>
