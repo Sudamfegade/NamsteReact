@@ -2,12 +2,13 @@ import { useEffect, useState } from "react";
 import RestroCart from "./RestroCard.js";
 import Shimmer from "./Shimmer.js";
 import { Link } from "react-router";
+import useOnlineStatus from "../utils/useOnlineStatus.js";
 
 const Body = () => {
   const [reslis, setResli] = useState([]);
   const [filteredReslis, setFiltredResli] = useState([]);
   const [searchInput, setSearchInput] = useState("");
-
+  const onlineStatus = useOnlineStatus();
   useEffect(() => {
     fetchData();
   }, []);
@@ -30,6 +31,9 @@ const Body = () => {
     );
     setFiltredResli(updateRes);
   };
+  if (onlineStatus) {
+    return <p>Oops!! NO Internet connection</p>;
+  }
   return reslis.length == 0 ? (
     <Shimmer />
   ) : (
