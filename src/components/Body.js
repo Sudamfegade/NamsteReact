@@ -38,31 +38,38 @@ const Body = () => {
     <Shimmer />
   ) : (
     <div className="body">
-      <div className="filter">
-        <div className="search">
+      <div className="filter flex items-center">
+        <div className="search my-4 p-4">
           <input
-            className="search-box"
+            className="border"
             type="text"
             onChange={(e) => {
               setSearchInput(e.target.value);
             }}
             value={searchInput}
           ></input>
-          <button onClick={handleSearch}>Search</button>
+          <button
+            className="px-4 py-2 bg-green-100 m-4 cursor-pointer rounded-xl"
+            onClick={handleSearch}
+          >
+            Search
+          </button>
         </div>
-        <button
-          className="filter-btn"
-          onClick={(e) => {
-            const filteredList = reslis.filter(
-              (res) => res.info?.avgRatingString > 4.2
-            );
-            setResli(filteredList);
-          }}
-        >
-          Top Rated Restaurants
-        </button>
+        <div className="search my-4 p-4">
+          <button
+            className="px-4 py-2 bg-green-100 m-4 cursor-pointer rounded-xl"
+            onClick={(e) => {
+              const filteredList = reslis.filter(
+                (res) => res.info?.avgRatingString > 4.2
+              );
+              setResli(filteredList);
+            }}
+          >
+            Top Rated Restaurants
+          </button>
+        </div>
       </div>
-      <div className="res-container">
+      <div className="flex flex-wrap">
         {filteredReslis.map((resCard, index) => (
           <Link key={resCard.info.id} to={"/restaurant/" + resCard.info.id}>
             <RestroCart resData={resCard} />
