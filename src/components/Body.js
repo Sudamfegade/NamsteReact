@@ -1,14 +1,17 @@
-import { useEffect, useState } from "react";
-import RestroCart from "./RestroCard.js";
+import { useContext, useEffect, useState } from "react";
+import RestroCart, { withLablePromoted } from "./RestroCard.js";
 import Shimmer from "./Shimmer.js";
 import { Link } from "react-router";
 import useOnlineStatus from "../utils/useOnlineStatus.js";
+import UserContext from "../utils/UserContext.js";
 
 const Body = () => {
   const [reslis, setResli] = useState([]);
   const [filteredReslis, setFiltredResli] = useState([]);
   const [searchInput, setSearchInput] = useState("");
   const onlineStatus = useOnlineStatus();
+  const { loggedInUser, setuserName } = useContext(UserContext);
+  const PromotedLable = withLablePromoted(RestroCart);
   useEffect(() => {
     fetchData();
   }, []);
@@ -68,11 +71,22 @@ const Body = () => {
             Top Rated Restaurants
           </button>
         </div>
+        <div>
+          <input
+            className="border"
+            onChange={(e) => setuserName(e.target.value)}
+            value={loggedInUser}
+          ></input>
+        </div>
       </div>
       <div className="flex flex-wrap">
         {filteredReslis.map((resCard, index) => (
           <Link key={resCard.info.id} to={"/restaurant/" + resCard.info.id}>
-            <RestroCart resData={resCard} />
+            {resCard.info.isOpen ? (
+              <PromotedLable resData={resCard} />
+            ) : (
+              <RestroCart resData={resCard} />
+            )}
           </Link>
         ))}
       </div>

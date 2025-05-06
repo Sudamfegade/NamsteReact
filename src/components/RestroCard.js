@@ -17,4 +17,15 @@ const RestroCart = (props) => {
     </div>
   );
 };
+
+export const withLablePromoted = (RestroCart) => {
+  return (props) => {
+    return (
+      <div>
+        <label className="absolute m-4 p-1 bg-black text-white">Promoted</label>
+        <RestroCart {...props} />
+      </div>
+    );
+  };
+};
 export default RestroCart;

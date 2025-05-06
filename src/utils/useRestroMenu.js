@@ -1,19 +1,18 @@
 import { useEffect, useState } from "react";
-import { MENU_API } from "./constants";
+import { MENU_API } from "../utils/constants";
 
 const useRestroMenu = (resId) => {
-  const [resMenu, setResInfo] = useState;
-  useEffect(
-    {
-      fetchData,
-    },
-    []
-  );
+  const [resInfo, setResInfo] = useState(null);
+  useEffect(() => {
+    fetchData();
+  }, []);
+
   const fetchData = async () => {
     const data = await fetch(MENU_API + resId);
     const json = await data.json();
-    setResInfo(json);
+    setResInfo(json.data);
   };
-  return resMenu;
+
+  return resInfo;
 };
 export default useRestroMenu;
