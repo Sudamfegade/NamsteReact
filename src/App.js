@@ -8,24 +8,40 @@ import ContactUs from "./components/Contact";
 import Error from "./components/ErrorPage";
 import RestMenu from "./components/RestaurantMenu";
 import UserContext from "./utils/UserContext";
+import { Provider } from "react-redux";
+import appStore from "./utils/store";
+import Cart from "./components/Cart";
 // import Grocery from "./components/Grocery";
 const Grocery = lazy(() => import("./components/Grocery"));
 
+// data using contextAPi
+
+// const App = () => {
+//   const [userName, setuserName] = useState();
+//   useEffect(() => {
+//     const data = {
+//       name: "SUdam Fegade",
+//     };
+//     setuserName(data.name);
+//   }, []);
+//   return (
+//     <UserContext.Provider value={{ loggedInUser: userName, setuserName }}>
+//       <div className="app">
+//         <Header />
+//         <Outlet />
+//       </div>
+//     </UserContext.Provider>
+//   );
+// };
+
 const App = () => {
-  const [userName, setuserName] = useState();
-  useEffect(() => {
-    const data = {
-      name: "SUdam Fegade",
-    };
-    setuserName(data.name);
-  }, []);
   return (
-    <UserContext.Provider value={{ loggedInUser: userName, setuserName }}>
+    <Provider store={appStore}>
       <div className="app">
         <Header />
         <Outlet />
       </div>
-    </UserContext.Provider>
+    </Provider>
   );
 };
 
@@ -53,6 +69,10 @@ const appRouters = createBrowserRouter([
             <Grocery />
           </Suspense>
         ),
+      },
+      {
+        path: "/cart",
+        element: <Cart />,
       },
       {
         path: "/restaurant/:resId",

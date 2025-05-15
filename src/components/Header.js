@@ -3,11 +3,14 @@ import { LOGO_URL } from "../utils/constants";
 import { Link } from "react-router";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import UserContext from "../utils/UserContext";
+import { useSelector } from "react-redux";
 
 const Header = () => {
   const [btnName, setBtnName] = useState(true);
   const statuson = useOnlineStatus();
   const { loggedInUser } = useContext(UserContext);
+  const cartItems = useSelector((store) => store.cart.items);
+  console.log(cartItems);
   const handleBtnName = () => {
     setBtnName(!btnName);
   };
@@ -31,7 +34,9 @@ const Header = () => {
           <li className="px-10">
             <Link to="/grocery">Grocery</Link>
           </li>
-          <li className="px-10">Cart</li>
+          <li className="px-10 font-bold text-xl">
+            <Link to="/cart">Cart - ({cartItems.length} Items)</Link>
+          </li>
           <li className="px-10">
             <button className="login" onClick={handleBtnName}>
               {btnName ? "Login" : "Logout"}

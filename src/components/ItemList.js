@@ -1,9 +1,15 @@
 import { useContext } from "react";
 import { CDN_URL } from "../utils/constants";
 import UserContext from "../utils/UserContext";
+import { useDispatch } from "react-redux";
+import { addItems } from "../utils/cartSlice";
 
 const ItemList = ({ items }) => {
   const { loggedInUser } = useContext(UserContext);
+  const dispatch = useDispatch();
+  const handleOnClick = (item) => {
+    dispatch(addItems(item));
+  };
   return (
     <div>
       {items.map((item) => (
@@ -28,7 +34,10 @@ const ItemList = ({ items }) => {
           </div>
           <div className="w-2/12 p-4 ">
             <div className="absolute">
-              <button className="p-2 ml-9 mt-18 rounded-lg text-white bg-black shadow-lg">
+              <button
+                onClick={() => handleOnClick(item)}
+                className="p-2 ml-9 mt-18 rounded-lg text-white bg-black shadow-lg cursor-pointer"
+              >
                 Add+
               </button>
             </div>
