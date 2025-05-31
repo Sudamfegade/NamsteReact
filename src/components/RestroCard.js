@@ -3,7 +3,10 @@ import { CDN_URL } from "../utils/constants";
 const RestroCart = (props) => {
   const { resData } = props;
   return (
-    <div className="m-4 p-4 w-[250px] bg-[#f0f0f0] rounded-lg h-fit hover:bg-gray-300">
+    <div
+      data-testid="resCard"
+      className="m-4 p-4 w-[250px] bg-[#f0f0f0] rounded-lg h-fit hover:bg-gray-300"
+    >
       <img
         className="h-fit rounded-lg"
         alt="res-logo"
@@ -21,7 +24,7 @@ const RestroCart = (props) => {
 export const withLablePromoted = (RestroCart) => {
   return (props) => {
     return (
-      <div>
+      <div data-testid="resCard">
         <label className="absolute m-4 p-1 bg-black text-white">Promoted</label>
         <RestroCart {...props} />
       </div>

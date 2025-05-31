@@ -10,7 +10,6 @@ const Header = () => {
   const statuson = useOnlineStatus();
   const { loggedInUser } = useContext(UserContext);
   const cartItems = useSelector((store) => store.cart.items);
-  console.log(cartItems);
   const handleBtnName = () => {
     setBtnName(!btnName);
   };

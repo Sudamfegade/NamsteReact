@@ -44,6 +44,7 @@ const Body = () => {
       <div className="filter flex items-center">
         <div className="search my-4 p-4">
           <input
+            data-testid="SearchInput"
             className="border"
             type="text"
             onChange={(e) => {
@@ -63,9 +64,9 @@ const Body = () => {
             className="px-4 py-2 bg-green-100 m-4 cursor-pointer rounded-xl"
             onClick={(e) => {
               const filteredList = reslis.filter(
-                (res) => res.info?.avgRatingString > 4.2
+                (res) => res.info?.avgRatingString > 4.5
               );
-              setResli(filteredList);
+              setFiltredResli(filteredList);
             }}
           >
             Top Rated Restaurants
@@ -73,8 +74,11 @@ const Body = () => {
         </div>
         <div>
           <input
+            data-testid="inputUser"
             className="border"
-            onChange={(e) => setuserName(e.target.value)}
+            onChange={(e) => {
+              setuserName(e.target.value);
+            }}
             value={loggedInUser}
           ></input>
         </div>

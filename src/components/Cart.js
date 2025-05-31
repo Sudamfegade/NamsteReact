@@ -1,11 +1,14 @@
 import { useDispatch, useSelector } from "react-redux";
 import ItemList from "./ItemList";
 import { clearItems } from "../utils/cartSlice";
+import { useState } from "react";
 
 const Cart = () => {
   const ItemCards = useSelector((store) => store.cart.items);
+  const [isVisibel, setIsvisible] = useState(false);
   const dispatch = useDispatch();
   const handleClick = () => {
+    setIsvisible(true);
     dispatch(clearItems());
   };
   return (
@@ -22,6 +25,7 @@ const Cart = () => {
         </button>
       </div>
       <div className="w-6/12 mx-auto my-4 bg-gray-50 shadow-lg p-4">
+        {isVisibel && <p>Please add items in cart</p>}
         <ItemList items={ItemCards} />
       </div>
     </>

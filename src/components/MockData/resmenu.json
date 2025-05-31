@@ -1,0 +1,2988 @@
+{
+  "statusCode": 0,
+  "data": {
+    "statusMessage": "done successfully",
+    "cards": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+            "text": "NIC Ice Creams",
+            "headerStyling": {
+              "textColor": "text_Highest_Emphasis",
+              "textVariant": "header_H3_Black"
+            }
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.RestaurantBlTab",
+            "tabs": [
+              {
+                "id": "Order Online",
+                "title": "Order Online"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "64066",
+              "name": "NIC Ice Creams",
+              "city": "Pune",
+              "slugs": {
+                "restaurant": "nic-marina-rajiv-gandhi-infotech-park-hinjewadi",
+                "city": "pune"
+              },
+              "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/22/257e41d8-ebe0-4a97-908c-b513917a4cd3_64066.jpg",
+              "locality": "Maan Road",
+              "areaName": "Hinjawadi",
+              "costForTwo": "12000",
+              "costForTwoMessage": "₹120 for two",
+              "cuisines": ["Ice Cream", "Desserts"],
+              "avgRating": 4.7,
+              "veg": true,
+              "feeDetails": {
+                "restaurantId": "64066",
+                "fees": [{}]
+              },
+              "parentId": "6249",
+              "avgRatingString": "4.7",
+              "totalRatingsString": "11K+ ratings",
+              "sla": {
+                "restaurantId": "64066",
+                "deliveryTime": 47,
+                "minDeliveryTime": 45,
+                "maxDeliveryTime": 50,
+                "lastMileTravel": 10,
+                "serviceability": "SERVICEABLE",
+                "stressFactor": 1,
+                "rainMode": "RAIN_MODE_NONE",
+                "longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+                "zoneId": 89,
+                "slaString": "45-50 MINS",
+                "lastMileTravelString": "10.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2025-05-17 00:00:00",
+                "visibility": true,
+                "opened": true,
+                "restaurantClosedMeta": {}
+              },
+              "aggregatedDiscountInfo": {
+                "header": "Get items under 148",
+                "shortDescriptionList": [
+                  {
+                    "meta": "Get items under 148",
+                    "discountType": "FinalPrice",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "Flat ₹125 off | Use FLAVORFUL",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "Get items under 148",
+                    "discountType": "FinalPrice",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "Flat ₹125 off | Use FLAVORFUL",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "visible": true
+              },
+              "badges": {},
+              "slugString": "nic-marina-rajiv-gandhi-infotech-park-hinjewadi",
+              "multiOutlet": true,
+              "isOpen": true,
+              "labels": [
+                {
+                  "title": "Timings",
+                  "message": "null"
+                },
+                {
+                  "title": "Address",
+                  "message": "Shop No 2, Om Complex, Survey No.142/1,Maan Road, Hinjewadi Chowk,Pune-411057"
+                },
+                {
+                  "title": "Cuisines",
+                  "message": "Ice Cream,Desserts"
+                }
+              ],
+              "totalRatings": 11000,
+              "aggregatedDiscountInfoV2": {
+                "header": "Get items under 148",
+                "shortDescriptionList": [
+                  {
+                    "meta": "Get items under 148",
+                    "discountType": "FinalPrice",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "Flat ₹125 off | Use FLAVORFUL",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "Get items under 148",
+                    "discountType": "FinalPrice",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "Flat ₹125 off | Use FLAVORFUL",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "couponDetailsCta": "View coupon details"
+              },
+              "type": "F",
+              "nudgeBanners": [
+                {
+                  "priority": 1,
+                  "discountInfo": {
+                    "discountType": "FinalPrice",
+                    "value": 148
+                  },
+                  "unlockedMessage": "Deal of the Day unlocked!",
+                  "minItemCount": 1,
+                  "maxItemCount": 1,
+                  "type": "SILD",
+                  "nudgeTagInfo": {
+                    "title": "Deal of the Day",
+                    "fontName": "FONT_NAME_CONDENSED_BOLD"
+                  },
+                  "logoCtx": {}
+                }
+              ],
+              "headerBanner": {
+                "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/64066"
+              },
+              "expectationNotifiers": [
+                {
+                  "icon": {
+                    "imageId": "equitable_serviceability/es-icons/es-location-icon.png",
+                    "clickable": true
+                  },
+                  "popup": {
+                    "popupType": "HALF_CARD",
+                    "cta": {}
+                  },
+                  "halfCardPopup": {
+                    "halfCardPopupHeader": {
+                      "message": "Ordering from your far away favourite!",
+                      "imageId": "equitable_serviceability/es-icons/es-half-card-icon.png"
+                    },
+                    "halfCardPopupDescription": [
+                      {
+                        "message": "Far away orders generally take longer and may impact the food temperature",
+                        "imageId": "equitable_serviceability/es-icons/es-half-card-food.png"
+                      }
+                    ]
+                  },
+                  "trailingIcon": {}
+                }
+              ],
+              "generalPurposeInfoListV2": [
+                {
+                  "cta": {
+                    "info": {
+                      "recordings": {}
+                    },
+                    "linkCta": {}
+                  }
+                }
+              ],
+              "ratingSlab": "RATING_SLAB_5",
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {},
+                "commsStyling": {}
+              },
+              "hasBestsellerItems": true,
+              "nearestOutletNudge": {
+                "nearestOutletInfo": {
+                  "siblingOutlet": {
+                    "id": "162453",
+                    "city": "0",
+                    "slugs": {},
+                    "areaName": "Aundh",
+                    "costForTwo": "0",
+                    "feeDetails": {},
+                    "sla": {
+                      "deliveryTime": 28,
+                      "lastMileTravel": 4.6,
+                      "slaString": "28 MINS",
+                      "lastMileTravelString": "4.6 km",
+                      "iconType": "ICON_TYPE_EMPTY"
+                    },
+                    "availability": {
+                      "restaurantClosedMeta": {}
+                    },
+                    "aggregatedDiscountInfo": {
+                      "visible": true
+                    },
+                    "badges": {},
+                    "aggregatedDiscountInfoV2": {
+                      "visible": true
+                    },
+                    "availabilityServiceabilityMessage": "Temporarily closed for delivery",
+                    "cartOrderabilityNudgeBanner": {
+                      "parameters": {},
+                      "presentation": {}
+                    },
+                    "featuredSectionInfo": {}
+                  }
+                },
+                "nearestOutletComms": {
+                  "title": {
+                    "text": "Get your order 19 min faster"
+                  },
+                  "subTitle": {
+                    "text": "Switch to the faster outlet"
+                  }
+                }
+              },
+              "cartOrderabilityNudgeBanner": {
+                "parameters": {},
+                "presentation": {}
+              },
+              "latLong": "18.590327,73.738781",
+              "backgroundImageOverlayInfo": {},
+              "featuredSectionInfo": {}
+            },
+            "analytics": {}
+          },
+          "relevance": {
+            "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_ON_ITEM_ADD",
+            "sectionId": "POP_UP_CROUTON_MENU"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+            "layout": {
+              "rows": 1,
+              "columns": 5,
+              "horizontalScrollEnabled": true,
+              "itemSpacing": 12,
+              "lineSpacing": 10,
+              "widgetPadding": {},
+              "containerStyle": {
+                "containerPadding": {
+                  "left": 10,
+                  "right": 10,
+                  "bottom": 16
+                }
+              },
+              "scrollBar": {}
+            },
+            "id": "offerCollectionWidget_UX4",
+            "gridElements": {
+              "infoWithStyle": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                "offers": [
+                  {
+                    "info": {
+                      "header": "ITEMS AT ₹148",
+                      "offerTag": "DEAL OF DAY",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": ["2dbfd25c-9dc1-44ba-ad23-4881d59e7de7"],
+                      "expiryTime": "1970-01-01T05:04:24Z",
+                      "description": "ON SELECT ITEMS |",
+                      "offerType": "offers",
+                      "restId": "64066",
+                      "offerLogo": "offers/deal-of-day",
+                      "descriptionTextColor": "#7302060C",
+                      "showExpiryTimer": true
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT ₹125 OFF",
+                      "offerTag": "FLAT DEAL",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": ["d31eb11d-03af-4da5-b11b-497ba42bd09e"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE FLAVORFUL",
+                      "description": "ABOVE ₹399",
+                      "offerType": "offers",
+                      "restId": "64066",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "USE FLAVORFUL"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT ₹200 OFF",
+                      "offerTag": "FLAT DEAL",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": ["d182a3ea-8bcd-4468-bcd4-13abb9f6c014"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE FLAT200",
+                      "description": "ABOVE ₹549",
+                      "offerType": "offers",
+                      "restId": "64066",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "USE FLAT200"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT 20% OFF",
+                      "offerTag": "FLAT DEAL",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": ["c9c63ec9-cc3f-452c-b5bf-836121852157"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE XTRAPARTY",
+                      "description": "ABOVE ₹2000",
+                      "offerType": "offers",
+                      "restId": "64066",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "USE XTRAPARTY"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "10% OFF UPTO ₹150",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2025/4/30/1f69cda9-1364-4437-815b-0796876c2776_HSBC.png",
+                      "offerIds": ["1b4672c2-74b5-4abe-abd7-8ef99332b846"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE HSBCFEST",
+                      "description": "ABOVE ₹499",
+                      "offerType": "offers",
+                      "restId": "64066",
+                      "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2025/4/30/1f69cda9-1364-4437-815b-0796876c2776_HSBC.png",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "USE HSBCFEST"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  }
+                ],
+                "habitMilestoneInfo": {
+                  "callout": {}
+                },
+                "loyaltyDiscoverPresentationInfo": {
+                  "logoCtx": {}
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "REGULAR": {
+              "cards": [
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                      "isPureVeg": true,
+                      "badges": {},
+                      "vegOnlyDetails": {
+                        "imageId": "AutoVegOnly_qkjowj",
+                        "title": "Showing only vegetarian options.",
+                        "description": "Tap on the VEG ONLY button to turn off the setting"
+                      },
+                      "topRatedFilter": {
+                        "attributes": {
+                          "displayText": "Ratings 4.0+"
+                        }
+                      },
+                      "kidsCategoryFilter": {
+                        "attributes": {
+                          "displayText": "Kids Favourites",
+                          "tooltip": {
+                            "enabled": true,
+                            "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                          }
+                        }
+                      },
+                      "vegFilter": {
+                        "attributes": {
+                          "displayText": "VEG"
+                        }
+                      },
+                      "nonvegFilter": {
+                        "attributes": {
+                          "displayText": "NONVEG"
+                        }
+                      }
+                    },
+                    "relevance": {
+                      "type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+                      "sectionId": "MENU_FILTER_TOGGLE"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Recommended",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881266",
+                              "name": "Mixed Berries Ice Cream 100ml",
+                              "category": "100 Ml Ice Creams",
+                              "description": "Crafted with imported californian cranberries, blueberries and strawberries. This ice cream is perfect to give you a berry rush! serving :1 serve , serving size(mg/gm) 100/76, energy(kcal) : 153,carbohydrate(gm) : 18. 7,protein(gm) : 3. 5,dietary fiber (gm) :3. 1,fat (gm) :7. 1, allergen :contains milk. May contain traces of treenuts.  [Energy: 153 kcal, Allergen: milk,nuts, Carbohydrates: 18.7g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/79916c92-2cc5-4468-9bb5-8ff18534aca3_2f8cef4a-e009-4556-a959-097da0f76a3d.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8898,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.8",
+                                  "ratingCount": "455 ratings",
+                                  "ratingCountV2": "455"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881259",
+                              "name": "Anjeer Ice Cream 100ml",
+                              "category": "100 Ml Ice Creams",
+                              "description": "The smooth and creamy texture of anjeer ice cream. Great for consuming anytime! serving :1 serve , serving size(mg/gm) 100/76, energy(kcal) : 156,carbohydrate(gm) :18. 3,protein (gm) :4. 1,dietary fiber(gm) : 0. 7,fat(gm) : 7. 4, allergen :contains milk. May contain traces of treenuts.  [Energy: 156 kcal, Allergen: milk,nuts, Protein: 4.1g, Carbohydrates: 18.3g, Fiber: 0.7g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/de41569d-6b71-4723-88dd-5d85e0a093dd_b20aef3d-c43c-4f0a-8f9c-d5a6f78f9222.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 7627,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "352 ratings",
+                                  "ratingCountV2": "352"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881258",
+                              "name": "Roasted Almond Ice Cream 100ml",
+                              "category": "100 Ml Ice Creams",
+                              "description": "Roasted almonds is a must-have. Its crunchy texture with its singular flavour is unparalleled. Also available in sugarless. Serving :1 serve , serving size(mg/gm) 100/76, energy(kcal) : 172,carbohydrate(gm) : 13. 7,protein (gm) :5. 4,dietary fiber(gm) : 2,fat (gm) :10. 5, allergen :contains milk and treenuts.  [Energy: 172 kcal, Allergen: milk,nuts, Carbohydrates: 17.7g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/deb6e7cb-9bf1-47d2-b333-b9e699f554a5_c22ffcbc-5903-442b-b77a-0cc5ac6ca2c6.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 7627,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.9",
+                                  "ratingCount": "476 ratings",
+                                  "ratingCountV2": "476"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881254",
+                              "name": "Tender Coconut Ice Cream 100ml",
+                              "category": "100 Ml Ice Creams",
+                              "description": "Relish the refreshing and fresh bites of tender coconut, only in nic's tender coconut! serving :1 serve , serving size(mg/gm) 100/76, energy(kcal) : 143,carbohydrate(gm) : 14. 9,protein (gm) :4. 3,dietary fiber(gm) : 0. 6,fat (gm) :7. 4, allergen :contains milk. May contain traces of treenuts.  [Energy: 143 kcal, Allergen: milk,nuts, Carbohydrates: 14.9g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/2b53a0ef-a399-41a1-9fcd-99f4f1a3b5d9_b247cb37-5fdb-4d0e-b803-75c6cf68738e.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 7627,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "808 ratings",
+                                  "ratingCountV2": "808"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "60088749",
+                              "name": "French Vanilla Ice Cream 100ml",
+                              "category": "100 Ml Ice Creams",
+                              "description": "The world's favourite ice cream taste, it's plain but delicious. Serving :1 serve , serving size(mg/gm) 100/76, energy(kcal) : 151,carbohydrate (gm) :15. 2,protein(gm) : 4. 1,dietary fiber(gm) : 0,fat (gm) :8. 2, allergen :contains milk. May contain traces of treenuts.  [Energy: 151 kcal, Allergen: milk,nuts, Carbohydrates: 15.2g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/17/2971a4f3-4cf3-4dfd-9f56-5fd1be71310f_86b5ee18-9a92-4830-a6b5-9800d85c77da.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8898,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.6",
+                                  "ratingCount": "95 ratings",
+                                  "ratingCountV2": "95"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881251",
+                              "name": "Sea Salt Caramel Ice Cream 100ml",
+                              "category": "100 Ml Ice Creams",
+                              "description": "A decadent swirl of mediterranean sea salt & crunch of crispy pearls ice cream for a tantalizing combination of taste and texture. Serving :1 serve , serving size(mg/gm) 100/76, energy(kcal) : 179,carbohydrate(gm) : 21. 3,protein(gm) :4. 3,dietary fiber(gm) : 0,fat (gm) :8. 4, allergen :contains milk and gluten. May contain traces of treenuts.  [Energy: 179 kcal, Allergen: milk,nuts,gluten, Carbohydrates: 21.3g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/b3f63ba9-5301-4b05-be2e-476e202a05b7_9ecb0536-c955-4138-963c-c5b02f510c2a.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10169,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.9",
+                                  "ratingCount": "140 ratings",
+                                  "ratingCountV2": "140"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881261",
+                              "name": "Gulab Jamun Ice Cream 100ml",
+                              "category": "100 Ml Ice Creams",
+                              "description": "Now india's favourite gulab jamun in ice cream. Lose yourself in its rich aroma & indulgent texture. Serving :1 serve , serving size(mg/gm) 100/76, energy(kcal) : 186,carbohydrate (gm) :20. 4,protein(gm) : 6. 3,dietary fiber(gm) : 0,fat(gm) : 8. 8, allergen :contains milk and gluten. May contain traces of treenuts.  [Energy: 186 kcal, Allergen: milk,nuts,gluten, Carbohydrates: 20.4g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/f70118c6-88a8-44a5-8b56-acf58f22cf58_9b88a4b9-1843-47bf-937b-ee7f3263c48e.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8051,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.8",
+                                  "ratingCount": "466 ratings",
+                                  "ratingCountV2": "466"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "63325303",
+                              "name": "Coffee Walnut Ice Cream 100ml",
+                              "category": "100 Ml Ice Creams",
+                              "description": "The distinctively bittersweet headiness of coffee crafted with nuttiness of walnut. Serving :1 serve , serving size(mg/gm) 100/76, energy(kcal) : 172,carbohydrate(gm) : 16,protein (gm) :4. 8,dietary fiber (gm) :0. 4,fat (gm) :9. 9, allergen :contains milk and treenuts. Contains caffeine.  [Energy: 172 kcal, Allergen: milk,nuts, Carbohydrates: 16g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/777ee05b-4433-4796-9ac5-9dfe34ea5e00_28490269-e185-497c-a9d1-f3e16abd7a8e.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 7627,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.6",
+                                  "ratingCount": "97 ratings",
+                                  "ratingCountV2": "97"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881281",
+                              "name": "Chocochips Ice Cream 500ml",
+                              "category": "500 Ml Ice Creams",
+                              "description": "Melt in mouth chocolate chips in every spoon. Truly, a decadent ice cream experience.  [Energy: 204 kcal, Allergen: milk,nuts, Carbohydrates: 24g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/21324a9b-a220-41b6-a19d-df03854006aa_a086b2d5-3c53-4b3f-9d30-acaef4105f0e.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 29661,
+                              "finalPrice": 14800,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "offerTags": [
+                                {
+                                  "matchText": "SILD"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "FinalPrice",
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.8",
+                                  "ratingCount": "704 ratings",
+                                  "ratingCountV2": "704"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "offerIds": [
+                                "2dbfd25c-9dc1-44ba-ad23-4881d59e7de7"
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "60088751",
+                              "name": "French Vanilla Ice Cream 500ml",
+                              "category": "500 Ml Ice Creams",
+                              "description": "The world's favourite ice cream taste, it's plain but delicious. Serving; 5 serves, serving size :100/76,energy(kcal) :151,carbohydrate(gm):15. 2,protein(gm): 4. 1,dietary fiber(gm) : 0,fat(gm) : 8. 2,allergen :contains milk. May contain traces of treenuts.  [Energy: 151 kcal, Allergen: milk,nuts, Carbohydrates: 15.2g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/95f693ad-9794-45a1-86e7-205e5a34e240_19942aaa-a3c4-4f18-9449-310c2e1e68ef.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 36017,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.8",
+                                  "ratingCount": "105 ratings",
+                                  "ratingCountV2": "105"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881275",
+                              "name": "Alphonso Mango Ice Cream 500ml",
+                              "category": "500 Ml Ice Creams",
+                              "description": "Indulge in the luscious delight of nic alphonso mango ice cream. A creamy fusion of velvety textures and the rich,tropical sweetness of premium ratnagiri alphonso mangoes, creating a taste of pure bliss. Perfect for savoring the essence of summer in every spoonful.  [Energy: 138 kcal, Allergen: milk,nuts, Protein: 4.2g, Carbohydrates: 16.5g, Fiber: 0g, Fat: 6.2g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/3937f196-2283-430b-9275-b97ea6c1e1a1_a6d535a6-3962-45ab-9ca2-b4fc31830b71.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 29661,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "421 ratings",
+                                  "ratingCountV2": "421"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "63325304",
+                              "name": "Coffee Walnut Ice Cream 500ml",
+                              "category": "500 Ml Ice Creams",
+                              "description": "The distinctively bittersweet headiness of coffee crafted with nuttiness of walnut [Energy: 172 kcal, Allergen: milk,nuts, Carbohydrates: 16g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/d0706423-cd03-43a9-9120-8e369b537a43_aa71c816-d55c-4a3e-9345-d18508f64413.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 29661,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.8",
+                                  "ratingCount": "158 ratings",
+                                  "ratingCountV2": "158"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881276",
+                              "name": "Roasted Almond Ice Cream 500ml",
+                              "category": "500 Ml Ice Creams",
+                              "description": "Roasted almonds is a must-have. Its crunchy texture with its singular flavour is unparalleled. Also available in sugarless. Serving; 5 serves, serving size :100/76,energy(kcal) :172,carbohydrate(gm):13. 7,protein(gm): 5. 4,dietary fiber(gm) : 2,fat(gm) : 10. 5,allergen :contains milk and treenuts.  [Energy: 172 kcal, Allergen: milk,nuts, Carbohydrates: 17.7g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/b24f0b08-34ec-4d73-aa4c-284eeedc6f19_67c09abf-1801-447b-bbe1-254853b10048.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 29661,
+                              "finalPrice": 14800,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "offerTags": [
+                                {
+                                  "matchText": "SILD"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "FinalPrice",
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "325 ratings",
+                                  "ratingCountV2": "325"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "offerIds": [
+                                "2dbfd25c-9dc1-44ba-ad23-4881d59e7de7"
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881277",
+                              "name": "Tender Coconut Ice Cream 500ml",
+                              "category": "500 Ml Ice Creams",
+                              "description": "Relish the refreshing and fresh bites of  tender coconut, only in nic's tender coconut. Serving; 5 serves, serving size :100/76,energy(kcal) :143,carbohydrate(gm):14. 9,protein(gm): 4. 3,dietary fiber(gm) : 0. 6,fat(gm) : 7. 4,allergen :contains milk. May contain traces of treenuts.  [Energy: 143 kcal, Allergen: milk,nuts, Carbohydrates: 14.9g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/550c1e1d-9303-421d-b266-2a70f9fc1986_c4870952-9b6e-4eff-bf0a-9410302b3cbb.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 29661,
+                              "finalPrice": 14800,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "offerTags": [
+                                {
+                                  "matchText": "SILD"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "FinalPrice",
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5",
+                                  "ratingCount": "756 ratings",
+                                  "ratingCountV2": "756"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "offerIds": [
+                                "2dbfd25c-9dc1-44ba-ad23-4881d59e7de7"
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881278",
+                              "name": "Cookies N Cream Ice Cream 500ml",
+                              "category": "500 Ml Ice Creams",
+                              "description": "Dedicated to lovers of cookies. A fun scoop of oreo cookies in your ice cream. Serving; 5 serves, serving size :100/76,energy(kcal) :167,carbohydrate(gm):18,protein(gm): 4. 3,dietary fiber(gm) : 0. 1,fat(gm) : 8. 6,allergen :contains milk and gluten. May contain traces of treenuts.  [Energy: 167 kcal, Allergen: milk,nuts,gluten, Carbohydrates: 18g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/7a51aa36-55ef-4a85-8f8a-bb0b1efea23e_f67f602f-b514-412d-b3c6-0dc00426e502.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 29661,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "143 ratings",
+                                  "ratingCountV2": "143"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881271",
+                              "name": "Madagascar Chocolate Ice Cream 500ml",
+                              "category": "500 Ml Ice Creams",
+                              "description": "Extra rich & smooth madagascar ice cream, takes chocolate indulgence to a level beyond description. Serving; 5 serves, serving size :100/76,energy(kcal) :173,carbohydrate(gm):21. 7,protein(gm): 4. 5,dietary fiber(gm) : 1. 4,fat(gm) : 7. 6,allergen :contains milk. May contain traces of treenuts.  [Energy: 173 kcal, Allergen: milk,nuts, Carbohydrates: 21.7g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/0ff6b5e2-404c-4380-83b7-ce4482dd8e72_5d5c8a7e-a9f3-43ca-a885-2095da2b3f11.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 40254,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.8",
+                                  "ratingCount": "179 ratings",
+                                  "ratingCountV2": "179"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881270",
+                              "name": "Sea Salt Caramel Ice Cream 500ml",
+                              "category": "500 Ml Ice Creams",
+                              "description": "A decadent swirl of mediterranean sea salt & crunch of crispy pearls ice cream for a tantalizing combination of taste and texture. Serving; 5 serves, serving size :100/76,energy(kcal) :179,carbohydrate(gm):21. 3,protein(gm): 4. 3,dietary fiber(gm) : 0,fat(gm) : 8. 4,allergen :contains milk and gluten. May contain traces of treenuts.  [Energy: 179 kcal, Allergen: milk,nuts,gluten, Carbohydrates: 21.3g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/33aade41-d905-47fb-878e-f6b728b6637f_ccd337bb-51a2-4cd8-a86f-2772a02809b6.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 40254,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "51 ratings",
+                                  "ratingCountV2": "51"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881293",
+                              "name": "Alphonso Mango Ice Cream 750ml",
+                              "category": "750 Ml Ice Creams",
+                              "description": "Indulge in the luscious delight of nic alphonso mango ice cream. A creamy fusion of velvety textures and the rich,tropical sweetness of premium ratnagiri alphonso mangoes, creating a taste of pure bliss. Perfect for savoring the essence of summer in every spoonful.  [Energy: 138 kcal, Allergen: milk,nuts, Protein: 4.2g, Carbohydrates: 16.5g, Fiber: 0.2g, Fat: 6.2g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/58d8fee0-27a9-4987-bc83-3cddb8e5c010_885f0d25-ebde-46fe-a418-b2a55dd3355a.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 38136,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.1",
+                                  "ratingCount": "89 ratings",
+                                  "ratingCountV2": "89"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881290",
+                              "name": "Madagascar Chocolate Ice Cream 750ml",
+                              "category": "750 Ml Ice Creams",
+                              "description": "Extra rich & smooth madagascar ice cream, takes chocolate indulgence to a level beyond description. Serving; 7. 5 serves, serving size :100/76,energy(kcal) :173,carbohydrate(gm):21. 7,protein(gm): 4. 5,dietary fiber(gm) : 1. 4,fat(gm) : 7. 6,allergen :contains milk. May contain traces of treenuts [Energy: 173 kcal, Allergen: milk,nuts, Protein: 4.5g, Carbohydrates: 21.7g, Fiber: 1.4g, Fat: 7.6g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/ff2c429c-11ef-4c7d-b177-476ada67941d_ba763506-e48b-4210-8940-35e1d06cb012.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 48729,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "49 ratings",
+                                  "ratingCountV2": "49"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881299",
+                              "name": "Stick Gulkand Kulfi",
+                              "category": "Kulfi",
+                              "description": "Taste the aromatic sweetness of gulkand in every bite",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/3/20/9c53a4e1-521b-43f5-b8a6-e8161841931f_0a8e2c37-134b-42c9-bb8e-80fb49518efc.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 6356,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.8",
+                                  "ratingCount": "150 ratings",
+                                  "ratingCountV2": "150"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "type": "CATEGORY_TYPE_RECOMMENDED",
+                      "subtitleSuffix": {},
+                      "categoryId": "-1"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Ipl Combos",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "167274849",
+                              "name": "Powerplay Delight",
+                              "category": "Ipl Combos",
+                              "description": "(2x500 ml tubs) the rich, intense madagascar chocolate 500ml and the sweet, creamy alphonso mango 500ml will satisfy every craving to the fullest. A combination designed for indulgence champs!",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/3/18/bfb26c8e-0064-484f-816a-38f7141c4a35_0ca98ed3-88cd-4c95-984a-009408074ebe.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 69068,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "167274841",
+                              "name": "Boundary Bash",
+                              "category": "Ipl Combos",
+                              "description": "(2x500 ml tubs) enjoy a delightful combination of tropical tender coconut 500ml and mixed berries 500ml and score big. This pairing is ideal for keeping you cool during each ipl inning. ",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/3/18/8d1df0c7-ce64-4d5c-8a91-773784b0391c_3e6d65e0-0a08-4f73-978f-908df08a6828.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 64831,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {},
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2025/3/18/bfb26c8e-0064-484f-816a-38f7141c4a35_0ca98ed3-88cd-4c95-984a-009408074ebe.jpg",
+                      "categoryId": "60109128"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "100 Ml Ice Creams",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881266",
+                              "name": "Mixed Berries Ice Cream 100ml",
+                              "category": "100 Ml Ice Creams",
+                              "description": "Crafted with imported californian cranberries, blueberries and strawberries. This ice cream is perfect to give you a berry rush! serving :1 serve , serving size(mg/gm) 100/76, energy(kcal) : 153,carbohydrate(gm) : 18. 7,protein(gm) : 3. 5,dietary fiber (gm) :3. 1,fat (gm) :7. 1, allergen :contains milk. May contain traces of treenuts.  [Energy: 153 kcal, Allergen: milk,nuts, Carbohydrates: 18.7g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/79916c92-2cc5-4468-9bb5-8ff18534aca3_2f8cef4a-e009-4556-a959-097da0f76a3d.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8898,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.8",
+                                  "ratingCount": "455 ratings",
+                                  "ratingCountV2": "455"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881259",
+                              "name": "Anjeer Ice Cream 100ml",
+                              "category": "100 Ml Ice Creams",
+                              "description": "The smooth and creamy texture of anjeer ice cream. Great for consuming anytime! serving :1 serve , serving size(mg/gm) 100/76, energy(kcal) : 156,carbohydrate(gm) :18. 3,protein (gm) :4. 1,dietary fiber(gm) : 0. 7,fat(gm) : 7. 4, allergen :contains milk. May contain traces of treenuts.  [Energy: 156 kcal, Allergen: milk,nuts, Protein: 4.1g, Carbohydrates: 18.3g, Fiber: 0.7g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/de41569d-6b71-4723-88dd-5d85e0a093dd_b20aef3d-c43c-4f0a-8f9c-d5a6f78f9222.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 7627,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "352 ratings",
+                                  "ratingCountV2": "352"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881258",
+                              "name": "Roasted Almond Ice Cream 100ml",
+                              "category": "100 Ml Ice Creams",
+                              "description": "Roasted almonds is a must-have. Its crunchy texture with its singular flavour is unparalleled. Also available in sugarless. Serving :1 serve , serving size(mg/gm) 100/76, energy(kcal) : 172,carbohydrate(gm) : 13. 7,protein (gm) :5. 4,dietary fiber(gm) : 2,fat (gm) :10. 5, allergen :contains milk and treenuts.  [Energy: 172 kcal, Allergen: milk,nuts, Carbohydrates: 17.7g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/deb6e7cb-9bf1-47d2-b333-b9e699f554a5_c22ffcbc-5903-442b-b77a-0cc5ac6ca2c6.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 7627,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.9",
+                                  "ratingCount": "476 ratings",
+                                  "ratingCountV2": "476"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881254",
+                              "name": "Tender Coconut Ice Cream 100ml",
+                              "category": "100 Ml Ice Creams",
+                              "description": "Relish the refreshing and fresh bites of tender coconut, only in nic's tender coconut! serving :1 serve , serving size(mg/gm) 100/76, energy(kcal) : 143,carbohydrate(gm) : 14. 9,protein (gm) :4. 3,dietary fiber(gm) : 0. 6,fat (gm) :7. 4, allergen :contains milk. May contain traces of treenuts.  [Energy: 143 kcal, Allergen: milk,nuts, Carbohydrates: 14.9g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/2b53a0ef-a399-41a1-9fcd-99f4f1a3b5d9_b247cb37-5fdb-4d0e-b803-75c6cf68738e.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 7627,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "808 ratings",
+                                  "ratingCountV2": "808"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "60088749",
+                              "name": "French Vanilla Ice Cream 100ml",
+                              "category": "100 Ml Ice Creams",
+                              "description": "The world's favourite ice cream taste, it's plain but delicious. Serving :1 serve , serving size(mg/gm) 100/76, energy(kcal) : 151,carbohydrate (gm) :15. 2,protein(gm) : 4. 1,dietary fiber(gm) : 0,fat (gm) :8. 2, allergen :contains milk. May contain traces of treenuts.  [Energy: 151 kcal, Allergen: milk,nuts, Carbohydrates: 15.2g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/17/2971a4f3-4cf3-4dfd-9f56-5fd1be71310f_86b5ee18-9a92-4830-a6b5-9800d85c77da.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8898,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.6",
+                                  "ratingCount": "95 ratings",
+                                  "ratingCountV2": "95"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881263",
+                              "name": "Dryfruit Overload Ice Cream 100ml",
+                              "category": "100 Ml Ice Creams",
+                              "description": "A scoop of ice cream loaded with cashews, almonds, pistas and kishmishs. Needs no further description. Serving :1 serve , serving size(mg/gm) 100/76, energy(kcal) : 172,carbohydrate (gm) :14. 7,protein(gm) : 5,dietary fiber(gm) : 1. 4,fat (gm) :10. 3, allergen :contains milk and treenuts.  [Energy: 172 kcal, Allergen: milk,nuts, Protein: 5g, Carbohydrates: 14.7g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/e58f84c9-435e-43ef-b21e-72ffbe763c75_a5332a1f-3908-4d91-9c6b-67ca217f35d5.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8898,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.6",
+                                  "ratingCount": "413 ratings",
+                                  "ratingCountV2": "413"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881262",
+                              "name": "Paan Ice Cream 100ml",
+                              "category": "100 Ml Ice Creams",
+                              "description": "The tantalizing taste of paan meets the creamy goodness of our pure milk ice cream. Serving :1 serve , serving size(mg/gm) 100/76, energy(kcal) : 153,carbohydrate (gm) :17. 7,protein (gm) :3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 7. 4, allergen :contains milk. May contain traces of treenuts.  [Energy: 153 kcal, Allergen: milk,nuts, Carbohydrates: 17.7g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/dfc7eadf-bb7f-4578-b5f6-2a8b48dd05ae_e4784778-c198-4441-b462-ce398b5b3e1a.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8051,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "273 ratings",
+                                  "ratingCountV2": "273"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "80323894",
+                              "name": "Strawberry Cheesecake Ice Cream 100ml",
+                              "category": "100 Ml Ice Creams",
+                              "description": "Super fruity, tangy, sweet and incredibly creamy - nic's strawberry cheesecake variant contains all the essentials for a perfect dessert experience. Serving :1 serve , serving size(mg/gm) 100/76, energy(kcal) : 174,carbohydrate (gm) :21. 2,protein(gm) : 3. 7,dietary fiber(gm) : 0. 4,fat(gm) : 8. 2, allergen :contains milk and gluten. May contain traces of treenuts.  [Energy: 174 kcal, Allergen: milk,nuts,gluten, Carbohydrates: 21.2g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/7a5bd21b-71fd-42ff-9cca-f761589ef6ce_4aee235b-1507-4769-b872-39a975fafbbb.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10169,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.6",
+                                  "ratingCount": "50 ratings",
+                                  "ratingCountV2": "50"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "47870650",
+                              "name": "Strawberry Ice Cream 100ml",
+                              "category": "100 Ml Ice Creams",
+                              "description": "Creamy milk ice cream, infused with the freshness of hand picked strawberries. Serving :1 serve , serving size(mg/gm) 100/76, energy(kcal) : 132,carbohydrate(gm) : 15,protein (gm) :3. 4,dietary fiber(gm) : 0. 7,fat 6. 5(gm) :, allergen :contains milk. May contain traces of treenuts.  [Energy: 132 kcal, Allergen: milk,nuts, Carbohydrates: 15g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/de64465d-4832-461a-8885-4087240dac06_fc8acf62-c3ca-4308-8867-7984bd3d54ce.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 7627,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.6",
+                                  "ratingCount": "52 ratings",
+                                  "ratingCountV2": "52"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881251",
+                              "name": "Sea Salt Caramel Ice Cream 100ml",
+                              "category": "100 Ml Ice Creams",
+                              "description": "A decadent swirl of mediterranean sea salt & crunch of crispy pearls ice cream for a tantalizing combination of taste and texture. Serving :1 serve , serving size(mg/gm) 100/76, energy(kcal) : 179,carbohydrate(gm) : 21. 3,protein(gm) :4. 3,dietary fiber(gm) : 0,fat (gm) :8. 4, allergen :contains milk and gluten. May contain traces of treenuts.  [Energy: 179 kcal, Allergen: milk,nuts,gluten, Carbohydrates: 21.3g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/b3f63ba9-5301-4b05-be2e-476e202a05b7_9ecb0536-c955-4138-963c-c5b02f510c2a.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10169,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.9",
+                                  "ratingCount": "140 ratings",
+                                  "ratingCountV2": "140"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881261",
+                              "name": "Gulab Jamun Ice Cream 100ml",
+                              "category": "100 Ml Ice Creams",
+                              "description": "Now india's favourite gulab jamun in ice cream. Lose yourself in its rich aroma & indulgent texture. Serving :1 serve , serving size(mg/gm) 100/76, energy(kcal) : 186,carbohydrate (gm) :20. 4,protein(gm) : 6. 3,dietary fiber(gm) : 0,fat(gm) : 8. 8, allergen :contains milk and gluten. May contain traces of treenuts.  [Energy: 186 kcal, Allergen: milk,nuts,gluten, Carbohydrates: 20.4g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/f70118c6-88a8-44a5-8b56-acf58f22cf58_9b88a4b9-1843-47bf-937b-ee7f3263c48e.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8051,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.8",
+                                  "ratingCount": "466 ratings",
+                                  "ratingCountV2": "466"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "63325303",
+                              "name": "Coffee Walnut Ice Cream 100ml",
+                              "category": "100 Ml Ice Creams",
+                              "description": "The distinctively bittersweet headiness of coffee crafted with nuttiness of walnut. Serving :1 serve , serving size(mg/gm) 100/76, energy(kcal) : 172,carbohydrate(gm) : 16,protein (gm) :4. 8,dietary fiber (gm) :0. 4,fat (gm) :9. 9, allergen :contains milk and treenuts. Contains caffeine.  [Energy: 172 kcal, Allergen: milk,nuts, Carbohydrates: 16g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/777ee05b-4433-4796-9ac5-9dfe34ea5e00_28490269-e185-497c-a9d1-f3e16abd7a8e.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 7627,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.6",
+                                  "ratingCount": "97 ratings",
+                                  "ratingCountV2": "97"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "110291504",
+                              "name": "Chikoo Ice Cream 100ml",
+                              "category": "100 Ml Ice Creams",
+                              "description": "Serving; 5 serves, serving size :100/76,energy(kcal) :127,carbohydrate(gm):15,protein(gm): 3. 1,dietary fiber(gm) : 1. 1,fat(gm) : 6,allergen :contains milk. May contain traces of treenuts. ",
+                              "imageId": "250f385a56a1f58ded751a60c8d1188a",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 7627,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "5.0",
+                                  "ratingCount": "14 ratings",
+                                  "ratingCountV2": "14"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {},
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/79916c92-2cc5-4468-9bb5-8ff18534aca3_2f8cef4a-e009-4556-a959-097da0f76a3d.jpg",
+                      "categoryId": "29299448"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "500 Ml Ice Creams",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881287",
+                              "name": "Gulab Jamun Ice Cream 500ml",
+                              "category": "500 Ml Ice Creams",
+                              "description": "Now india's favourite gulab jamun in ice cream. Lose yourself in its rich aroma & indulgent texture. Serving; 5 serves, serving size :100/76,energy(kcal) :186,carbohydrate(gm):20. 4,protein(gm): 6. 3,dietary fiber(gm) : 0,fat(gm) : 8. 8,allergen :contains milk and gluten. May contain traces of treenuts.  [Energy: 186 kcal, Allergen: milk,nuts,gluten, Carbohydrates: 20.4g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/f4ce6bfd-554a-41ad-b59e-438e6d0aae27_283eef47-8b3f-420f-be76-fa6fc1d30e32.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 33051,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.9",
+                                  "ratingCount": "168 ratings",
+                                  "ratingCountV2": "168"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881281",
+                              "name": "Chocochips Ice Cream 500ml",
+                              "category": "500 Ml Ice Creams",
+                              "description": "Melt in mouth chocolate chips in every spoon. Truly, a decadent ice cream experience.  [Energy: 204 kcal, Allergen: milk,nuts, Carbohydrates: 24g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/21324a9b-a220-41b6-a19d-df03854006aa_a086b2d5-3c53-4b3f-9d30-acaef4105f0e.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 29661,
+                              "finalPrice": 14800,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "offerTags": [
+                                {
+                                  "matchText": "SILD"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "FinalPrice",
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.8",
+                                  "ratingCount": "704 ratings",
+                                  "ratingCountV2": "704"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "offerIds": [
+                                "2dbfd25c-9dc1-44ba-ad23-4881d59e7de7"
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881279",
+                              "name": "Anjeer Ice Cream 500ml",
+                              "category": "500 Ml Ice Creams",
+                              "description": "The smooth and creamy texture of anjeer ice cream. Great for consuming anytime! serving; 5 serves, serving size :100/76,energy(kcal) :156,carbohydrate(gm):18. 3,protein(gm): 4. 1,dietary fiber(gm) : 0. 7,fat(gm) : 7. 4,allergen :contains milk. May contain traces of treenuts.  [Energy: 156 kcal, Allergen: milk,nuts, Protein: 4.1g, Carbohydrates: 18.3g, Fiber: 0.7g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/a2ca56a4-4851-4295-8ea5-c633a5dccb9d_fc66e8e3-84e9-4edc-8ad7-e6607901704d.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 29661,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.9",
+                                  "ratingCount": "187 ratings",
+                                  "ratingCountV2": "187"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "60088751",
+                              "name": "French Vanilla Ice Cream 500ml",
+                              "category": "500 Ml Ice Creams",
+                              "description": "The world's favourite ice cream taste, it's plain but delicious. Serving; 5 serves, serving size :100/76,energy(kcal) :151,carbohydrate(gm):15. 2,protein(gm): 4. 1,dietary fiber(gm) : 0,fat(gm) : 8. 2,allergen :contains milk. May contain traces of treenuts.  [Energy: 151 kcal, Allergen: milk,nuts, Carbohydrates: 15.2g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/95f693ad-9794-45a1-86e7-205e5a34e240_19942aaa-a3c4-4f18-9449-310c2e1e68ef.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 36017,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.8",
+                                  "ratingCount": "105 ratings",
+                                  "ratingCountV2": "105"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881268",
+                              "name": "Mixed Berries Ice Cream 500ml",
+                              "category": "500 Ml Ice Creams",
+                              "description": "Crafted with imported californian cranberries, blueberries and strawberries. This ice cream is perfect to give you a berry rush!. Serving; 5 serves, serving size :100/76,energy(kcal) :153,carbohydrate(gm):18. 7,protein(gm): 3. 5,dietary fiber(gm) : 3. 1,fat(gm) : 7. 1,allergen :contains milk. May contain traces of treenuts.  [Energy: 153 kcal, Allergen: milk,nuts, Carbohydrates: 18.7g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/e10fbcef-a835-4e61-a4ea-925e03f7e95e_0f89953c-f803-4e8f-aea9-b49a38c1b724.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 36017,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.8",
+                                  "ratingCount": "308 ratings",
+                                  "ratingCountV2": "308"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881275",
+                              "name": "Alphonso Mango Ice Cream 500ml",
+                              "category": "500 Ml Ice Creams",
+                              "description": "Indulge in the luscious delight of nic alphonso mango ice cream. A creamy fusion of velvety textures and the rich,tropical sweetness of premium ratnagiri alphonso mangoes, creating a taste of pure bliss. Perfect for savoring the essence of summer in every spoonful.  [Energy: 138 kcal, Allergen: milk,nuts, Protein: 4.2g, Carbohydrates: 16.5g, Fiber: 0g, Fat: 6.2g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/3937f196-2283-430b-9275-b97ea6c1e1a1_a6d535a6-3962-45ab-9ca2-b4fc31830b71.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 29661,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "421 ratings",
+                                  "ratingCountV2": "421"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881286",
+                              "name": "Jaggery Almond Ice Cream 500ml",
+                              "category": "500 Ml Ice Creams",
+                              "description": "Pure jaggery and crunchy almond come together in this playful ice cream delight! serving; 5 serves, serving size :100/76,energy(kcal) :181,carbohydrate(gm):17. 8,protein(gm): 5,dietary fiber(gm) : 0. 7,fat(gm) : 10,allergen :contains milk and treenuts.  [Energy: 181 kcal, Allergen: milk,nuts, Carbohydrates: 17.8g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/393e9302-b907-46b6-81ce-9f24e41f4f3a_aa9ca82f-5e44-446b-9f6f-abc1e875efcc.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 33051,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "5.0",
+                                  "ratingCount": "74 ratings",
+                                  "ratingCountV2": "74"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881269",
+                              "name": "Apricot Ice Cream 500ml",
+                              "category": "500 Ml Ice Creams",
+                              "description": "Dive into the premium taste of imported apricot ice cream. Serving; 5 serves, serving size :100/76,energy(kcal) :132,carbohydrate(gm):15. 2,protein(gm): 3. 6,dietary fiber(gm) : 2. 1,fat(gm) : 6. 3,allergen :contains milk. May contain traces of treenuts.  [Energy: 132 kcal, Allergen: milk,nuts, Protein: 3.6g, Carbohydrates: 15.2g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/81db8863-ad5a-4fd6-895d-b9fa30aef5be_8d1c1721-1b58-49f8-8a9a-7fd300fc2670.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 36017,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "25 ratings",
+                                  "ratingCountV2": "25"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "63325304",
+                              "name": "Coffee Walnut Ice Cream 500ml",
+                              "category": "500 Ml Ice Creams",
+                              "description": "The distinctively bittersweet headiness of coffee crafted with nuttiness of walnut [Energy: 172 kcal, Allergen: milk,nuts, Carbohydrates: 16g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/d0706423-cd03-43a9-9120-8e369b537a43_aa71c816-d55c-4a3e-9345-d18508f64413.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 29661,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.8",
+                                  "ratingCount": "158 ratings",
+                                  "ratingCountV2": "158"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881285",
+                              "name": "Paan Ice Cream 500ml",
+                              "category": "500 Ml Ice Creams",
+                              "description": "The tantalizing taste of paan meets the creamy goodness of our pure milk ice cream. Serving; 5 serves, serving size :100/76,energy(kcal) :153,carbohydrate(gm):17. 7,protein(gm): 3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 7. 4,allergen :contains milk. May contain traces of treenuts.  [Energy: 153 kcal, Allergen: milk,nuts, Carbohydrates: 17.7g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/b3d10933-2b37-414d-bbfd-aa0a5428cd37_ff3497ff-3af8-4450-8cae-2a5be136ee74.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 33051,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "133 ratings",
+                                  "ratingCountV2": "133"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881276",
+                              "name": "Roasted Almond Ice Cream 500ml",
+                              "category": "500 Ml Ice Creams",
+                              "description": "Roasted almonds is a must-have. Its crunchy texture with its singular flavour is unparalleled. Also available in sugarless. Serving; 5 serves, serving size :100/76,energy(kcal) :172,carbohydrate(gm):13. 7,protein(gm): 5. 4,dietary fiber(gm) : 2,fat(gm) : 10. 5,allergen :contains milk and treenuts.  [Energy: 172 kcal, Allergen: milk,nuts, Carbohydrates: 17.7g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/b24f0b08-34ec-4d73-aa4c-284eeedc6f19_67c09abf-1801-447b-bbe1-254853b10048.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 29661,
+                              "finalPrice": 14800,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [
+                                {
+                                  "matchText": "SILD"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "FinalPrice",
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "325 ratings",
+                                  "ratingCountV2": "325"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "offerIds": [
+                                "2dbfd25c-9dc1-44ba-ad23-4881d59e7de7"
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881277",
+                              "name": "Tender Coconut Ice Cream 500ml",
+                              "category": "500 Ml Ice Creams",
+                              "description": "Relish the refreshing and fresh bites of  tender coconut, only in nic's tender coconut. Serving; 5 serves, serving size :100/76,energy(kcal) :143,carbohydrate(gm):14. 9,protein(gm): 4. 3,dietary fiber(gm) : 0. 6,fat(gm) : 7. 4,allergen :contains milk. May contain traces of treenuts.  [Energy: 143 kcal, Allergen: milk,nuts, Carbohydrates: 14.9g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/550c1e1d-9303-421d-b266-2a70f9fc1986_c4870952-9b6e-4eff-bf0a-9410302b3cbb.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 29661,
+                              "finalPrice": 14800,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "offerTags": [
+                                {
+                                  "matchText": "SILD"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "FinalPrice",
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5",
+                                  "ratingCount": "756 ratings",
+                                  "ratingCountV2": "756"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "offerIds": [
+                                "2dbfd25c-9dc1-44ba-ad23-4881d59e7de7"
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "92233114",
+                              "name": "Belgian Chocolate Ice Cream 500ml",
+                              "category": "500 Ml Ice Creams",
+                              "description": "Serving; 5 serves, serving size :100/76,energy(kcal) :178,carbohydrate(gm):20. 9,protein(gm): 5. 6,dietary fiber(gm) : 0,fat(gm) : 8,allergen��:contains milk. May contain traces of treenuts.  [Energy: 178 kcal, Allergen: milk,nuts, Protein: 5.6g, Carbohydrates: 20.9g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/16/fc97ec52-e777-4fbc-87f1-bb71f629788b_4e4bf9d5-838d-4d5c-a9c5-1f02e5dc3f25.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 40254,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.6",
+                                  "ratingCount": "64 ratings",
+                                  "ratingCountV2": "64"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881278",
+                              "name": "Cookies N Cream Ice Cream 500ml",
+                              "category": "500 Ml Ice Creams",
+                              "description": "Dedicated to lovers of cookies. A fun scoop of oreo cookies in your ice cream. Serving; 5 serves, serving size :100/76,energy(kcal) :167,carbohydrate(gm):18,protein(gm): 4. 3,dietary fiber(gm) : 0. 1,fat(gm) : 8. 6,allergen :contains milk and gluten. May contain traces of treenuts.  [Energy: 167 kcal, Allergen: milk,nuts,gluten, Carbohydrates: 18g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/7a51aa36-55ef-4a85-8f8a-bb0b1efea23e_f67f602f-b514-412d-b3c6-0dc00426e502.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 29661,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "143 ratings",
+                                  "ratingCountV2": "143"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "110291505",
+                              "name": "Chikoo Ice Cream 500ml",
+                              "category": "500 Ml Ice Creams",
+                              "description": "Serving; 5 serves, serving size :100/76,energy(kcal) :127,carbohydrate(gm):15,protein(gm): 3. 1,dietary fiber(gm) : 1. 1,fat(gm) : 6,allergen��:contains milk. May contain traces of treenuts. ",
+                              "imageId": "80912920ab9a2a7d87c0528d0d9cf806",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 29661,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "5.0",
+                                  "ratingCount": "14 ratings",
+                                  "ratingCountV2": "14"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "47870652",
+                              "name": "Strawberry Ice Cream 500ml",
+                              "category": "500 Ml Ice Creams",
+                              "description": "Creamy milk ice cream, infused with the freshness of hand picked strawberries. Serving; 5 serves, serving size :100/76,energy(kcal) :132,carbohydrate(gm):15,protein(gm): 3. 4,dietary fiber(gm) : 0. 7,fat(gm) : 6. 5,allergen :contains milk. May contain traces of treenuts.  [Energy: 132 kcal, Allergen: milk,nuts, Carbohydrates: 15g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/058c1f3f-fb79-41d4-95b3-f1e250863188_2a9cf15c-6142-409c-b2c0-92fb6188e1f4.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 29661,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5",
+                                  "ratingCount": "68 ratings",
+                                  "ratingCountV2": "68"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881271",
+                              "name": "Madagascar Chocolate Ice Cream 500ml",
+                              "category": "500 Ml Ice Creams",
+                              "description": "Extra rich & smooth madagascar ice cream, takes chocolate indulgence to a level beyond description. Serving; 5 serves, serving size :100/76,energy(kcal) :173,carbohydrate(gm):21. 7,protein(gm): 4. 5,dietary fiber(gm) : 1. 4,fat(gm) : 7. 6,allergen :contains milk. May contain traces of treenuts.  [Energy: 173 kcal, Allergen: milk,nuts, Carbohydrates: 21.7g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/0ff6b5e2-404c-4380-83b7-ce4482dd8e72_5d5c8a7e-a9f3-43ca-a885-2095da2b3f11.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 40254,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.8",
+                                  "ratingCount": "179 ratings",
+                                  "ratingCountV2": "179"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881270",
+                              "name": "Sea Salt Caramel Ice Cream 500ml",
+                              "category": "500 Ml Ice Creams",
+                              "description": "A decadent swirl of mediterranean sea salt & crunch of crispy pearls ice cream for a tantalizing combination of taste and texture. Serving; 5 serves, serving size :100/76,energy(kcal) :179,carbohydrate(gm):21. 3,protein(gm): 4. 3,dietary fiber(gm) : 0,fat(gm) : 8. 4,allergen :contains milk and gluten. May contain traces of treenuts.  [Energy: 179 kcal, Allergen: milk,nuts,gluten, Carbohydrates: 21.3g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/33aade41-d905-47fb-878e-f6b728b6637f_ccd337bb-51a2-4cd8-a86f-2772a02809b6.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 40254,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "51 ratings",
+                                  "ratingCountV2": "51"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "80323895",
+                              "name": "Strawberry Cheesecake Ice Cream 500ml",
+                              "category": "500 Ml Ice Creams",
+                              "description": "Super fruity, tangy, sweet and incredibly creamy - nic's strawberry cheesecake variant contains all the essentials for a perfect dessert experience. Serving; 5 serves, serving size :100/76,energy(kcal) :174,carbohydrate(gm):21. 2,protein(gm): 3. 7,dietary fiber(gm) : 0. 4,fat(gm) : 8. 2,allergen :contains milk and gluten. May contain traces of treenuts.  [Energy: 174 kcal, Allergen: milk,nuts,gluten, Carbohydrates: 21.2g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/6282e656-ba2f-4fab-829c-43cf9db46471_85b6db5a-6923-4521-b093-cbada8a2e325.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 40254,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "29 ratings",
+                                  "ratingCountV2": "29"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {},
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/f4ce6bfd-554a-41ad-b59e-438e6d0aae27_283eef47-8b3f-420f-be76-fa6fc1d30e32.jpg",
+                      "categoryId": "29299449"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "750 Ml Ice Creams",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881293",
+                              "name": "Alphonso Mango Ice Cream 750ml",
+                              "category": "750 Ml Ice Creams",
+                              "description": "Indulge in the luscious delight of nic alphonso mango ice cream. A creamy fusion of velvety textures and the rich,tropical sweetness of premium ratnagiri alphonso mangoes, creating a taste of pure bliss. Perfect for savoring the essence of summer in every spoonful.  [Energy: 138 kcal, Allergen: milk,nuts, Protein: 4.2g, Carbohydrates: 16.5g, Fiber: 0.2g, Fat: 6.2g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/58d8fee0-27a9-4987-bc83-3cddb8e5c010_885f0d25-ebde-46fe-a418-b2a55dd3355a.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 38136,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.1",
+                                  "ratingCount": "89 ratings",
+                                  "ratingCountV2": "89"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "114288950",
+                              "name": "Anjeer Ice Cream 750ml",
+                              "category": "750 Ml Ice Creams",
+                              "description": "The smooth and creamy texture of anjeer ice cream. Great for consuming anytime!",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/0fa95215-84b3-4e1a-8a38-ef9fa0f233b0_76db73fb-4a48-41ea-be80-7c2c840f30ef.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 38136,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "5.0",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "114288944",
+                              "name": "Mixed Berries Ice Cream 750ml",
+                              "category": "750 Ml Ice Creams",
+                              "description": "Crafted with imported californian cranberries, blueberries and strawberries. This ice cream is perfect to give you a berry rush!. Serving; 5 serves, serving size :100/76,energy(kcal) :153,carbohydrate(gm):18. 7,protein(gm): 3. 5,dietary fiber(gm) : 3. 1,fat(gm) : 7. 1,allergen :contains milk. May contain traces of treenuts. ",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/54af446f-dfd6-402d-970c-62ad60061cb9_a48fa49d-6600-4034-a146-8ada61ca3d65.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 44492,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.6",
+                                  "ratingCount": "4 ratings",
+                                  "ratingCountV2": "4"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881290",
+                              "name": "Madagascar Chocolate Ice Cream 750ml",
+                              "category": "750 Ml Ice Creams",
+                              "description": "Extra rich & smooth madagascar ice cream, takes chocolate indulgence to a level beyond description. Serving; 7. 5 serves, serving size :100/76,energy(kcal) :173,carbohydrate(gm):21. 7,protein(gm): 4. 5,dietary fiber(gm) : 1. 4,fat(gm) : 7. 6,allergen :contains milk. May contain traces of treenuts [Energy: 173 kcal, Allergen: milk,nuts, Protein: 4.5g, Carbohydrates: 21.7g, Fiber: 1.4g, Fat: 7.6g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/ff2c429c-11ef-4c7d-b177-476ada67941d_ba763506-e48b-4210-8940-35e1d06cb012.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 48729,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "49 ratings",
+                                  "ratingCountV2": "49"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "114288948",
+                              "name": "Coffee Walnut Ice Cream 750ml",
+                              "category": "750 Ml Ice Creams",
+                              "description": "The distinctively bittersweet headiness of coffee crafted with nuttiness of walnut",
+                              "imageId": "1ef9198495f0675924bf9a64c8aa8c31",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 38136,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {},
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2024/4/15/58d8fee0-27a9-4987-bc83-3cddb8e5c010_885f0d25-ebde-46fe-a418-b2a55dd3355a.jpg",
+                      "categoryId": "42447549"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Kulfi",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881299",
+                              "name": "Stick Gulkand Kulfi",
+                              "category": "Kulfi",
+                              "description": "Taste the aromatic sweetness of gulkand in every bite",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/3/20/9c53a4e1-521b-43f5-b8a6-e8161841931f_0a8e2c37-134b-42c9-bb8e-80fb49518efc.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 6356,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.8",
+                                  "ratingCount": "150 ratings",
+                                  "ratingCountV2": "150"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881300",
+                              "name": "Stick Jaggery Almond Kulfi",
+                              "category": "Kulfi",
+                              "description": "Made from jaggery and almond give into its unique & tantalizing taste. ",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/3/20/086165e2-63bc-45c0-99c9-04b79aad6ec8_18052717-2a27-4928-8e21-7d0d4f99037f.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 6356,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.9",
+                                  "ratingCount": "91 ratings",
+                                  "ratingCountV2": "91"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "41881295",
+                              "name": "Stick Paan Kulfi",
+                              "category": "Kulfi",
+                              "description": "Tradition meets innovation. This combination made for indian hearts and palates. ",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/3/20/a98b783f-22f0-4fbc-9121-12d7bcd61a5c_38d8ca91-54ab-4aae-aec5-6154d25d9856.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 6356,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5",
+                                  "ratingCount": "167 ratings",
+                                  "ratingCountV2": "167"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {},
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2025/3/20/9c53a4e1-521b-43f5-b8a6-e8161841931f_0a8e2c37-134b-42c9-bb8e-80fb49518efc.jpg",
+                      "categoryId": "24766212"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "No Added Sugar Range",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "101769359",
+                              "name": "Alphonso Mango No Added Sugar 100ml",
+                              "category": "No Added Sugar Range",
+                              "description": "Experience the taste of the king of fruits in every bite, without any added sugar. Serving; 1 serve, serving size :100/76,energy(kcal) :137,carbohydrate(gm):16. 1,protein(gm): 4. 2,dietary fiber(gm) : 0. 2,fat(gm) : 6. 2,allergen��:contains milk. May contain traces of treenuts.  [Energy: 137 kcal, Allergen: milk,nuts, Protein: 4.2g, Carbohydrates: 16.1g, Fiber: 0.2g, Fat: 6.2g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/2/25/105d7495-6b6a-4aa1-9c9b-5380ec818cc1_4815b570-caab-4ea1-b481-88d41371b080.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8898,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.3",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "99816485",
+                              "name": "Roasted Almond No Added Sugar 100ml",
+                              "category": "No Added Sugar Range",
+                              "description": "A crunchy delight that leaves you pining for now, now available in a no added sugar variant. It���s time to get roasted the right way, with this tasteful treat. Serving; 1 serve, serving size :100/76,energy(kcal) :182,carbohydrate(gm):17. 7,protein(gm): 5. 2,dietary fiber(gm) : 0. 8,fat(gm) : 10. 2,allergen��:contains milk and treenut.  [Energy: 182 kcal, Allergen: milk,nuts, Carbohydrates: 17.7g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/2/25/6fe9d750-b7b8-4dd4-bda3-db58ed41be8b_18c7b9f6-e3f7-46c1-8855-3b31a97404e9.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8898,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "99816488",
+                              "name": "Roasted Almond No Added Sugar 500ml",
+                              "category": "No Added Sugar Range",
+                              "description": "A crunchy delight that leaves you pining for now, now available in a no added sugar variant. It���s time to get roasted the right way, with this tasteful treat [Energy: 182 kcal, Allergen: milk,nuts, Carbohydrates: 17.7g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/2/3/98465f17-8e78-476d-9c2d-4b1258510840_36bc7411-e6fd-4d5d-b35c-bc540ef074e4.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 36017,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.9",
+                                  "ratingCount": "9 ratings",
+                                  "ratingCountV2": "9"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "99816490",
+                              "name": "Tender Coconut No Added Sugar 500ml",
+                              "category": "No Added Sugar Range",
+                              "description": "One of the most sought-after flavors, this pure fruit-based delight now comes with the allure of no added sugar. Serving; 5 serves, serving size :100/76,energy(kcal) :132,carbohydrate(gm):13. 2,protein(gm): 3. 9,dietary fiber(gm) : 0. 1,fat(gm) : 7. 1,allergen :contains milk. May contain traces of treenuts [Energy: 132 kcal, Allergen: milk,nuts, Carbohydrates: 13.2g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/2/3/335819b5-fac4-496e-babf-ca42656d7e20_4f43e38b-790e-45e8-8bd3-c26539bd0bcf.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 36017,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "4 ratings",
+                                  "ratingCountV2": "4"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "163533828",
+                              "name": "Belgian Chocolate No Added Sugar 500ml",
+                              "category": "No Added Sugar Range",
+                              "description": " [Energy: 132 kcal, Allergen: milk,nuts, Carbohydrates: 13.2g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/2/3/82bfbbca-3fd5-4cdb-870c-cb0efe2a8327_72d809f1-99b1-4702-b6d6-3e916dd9978f.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 42373,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "165347273",
+                              "name": "Belgian Chocolate No Added Sugar 100ml",
+                              "category": "No Added Sugar Range",
+                              "description": " [Energy: 178 kcal, Allergen: milk,nuts, Protein: 5.6g, Carbohydrates: 20.9g]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/2/24/190a19ce-8949-4ebd-81ef-ba2893ca5e14_40bc3abd-e365-48a2-a09b-9451da7d2d86.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11441,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {},
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2025/2/25/105d7495-6b6a-4aa1-9c9b-5380ec818cc1_4815b570-caab-4ea1-b481-88d41371b080.jpg",
+                      "categoryId": "61540821"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                      "type": "FSSAI",
+                      "imageId": "fssai_final_edss9i",
+                      "text": ["License No. 11521037000512"]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                      "name": "NIC Ice Creams",
+                      "area": "Hinjawadi",
+                      "completeAddress": "Shop No 2, Om Complex, Survey No.142/1,Maan Road, Hinjewadi Chowk,Pune-411057"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "firstOffsetRequest": true,
+    "isQCLink": false
+  },
+  "tid": "a9368dd2-c332-43ed-9297-e17758a3fb23",
+  "sid": "kmmfad62-b491-4bfd-842d-fc347f621d7d",
+  "deviceId": "37d2e5e6-b7e5-6565-d9be-9a9ad558fc5d",
+  "csrfToken": "Vrq0DuDBEG3t-gsVZhak2pG2qPxE7v-YfkQcJJKc"
+}
